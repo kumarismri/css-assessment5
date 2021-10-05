@@ -1,0 +1,112 @@
+body{
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+}
+.b1{
+    height: 130px;
+    width: 130px;
+    background-color: green;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+li{
+    margin-bottom: 50px;
+}
+
+
+ol{
+
+    margin-left: 30%;
+}
+
+.first{
+    background-color: rgb(70, 70, 190);
+    animation: skeww 3s linear 0s infinite;
+
+}
+
+@keyframes skeww {
+    100%{
+       transform: skewX(30deg); 
+    }
+    50%{
+        transform: skewX(-30deg);
+    }  
+}
+
+.sec{
+    background-color: violet;
+    animation: skew 3s linear 0s infinite;
+}
+
+@keyframes skew{
+    100%{
+        transform: skewY(30deg);
+    }
+    50%{
+        transform: skewY(-30deg);
+    }
+}
+
+.trd{
+    background-color: rgb(44, 146, 187);
+    animation: rot 3s linear 0s infinite;
+}
+
+@keyframes rot {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.one{
+    height: 65px;
+    width: 130px;
+    border: 3px solid rgb(39, 30, 97);
+    margin-bottom: 35px;
+    background-color: slateblue;
+    animation: scale 3s linear 0s infinite;
+}
+
+@keyframes scale {
+    100%{
+        transform: scaleY(2);
+    }
+}
+
+.two{
+    height: 130px;
+    width: 65px;
+    border: 3px solid rgb(44, 5, 5);
+    background-color: brown;
+    animation: scalex 3s linear 0s infinite;
+}
+
+@keyframes scalex{
+    100%{
+        transform: scaleX(2);
+    }
+}
+
+.three{
+    margin-left: 70px;
+    border: 3px solid rgb(13, 59, 13);
+    animation: rott 2s linear 0s infinite;
+}
+
+@keyframes rott {
+    100%{
+        transform: rotate(100deg);
+    }
+}
+
+.p{
+    font-size: 40px;
+    font-weight: bolder;
+    color: purple;
+    text-align: center;
+}

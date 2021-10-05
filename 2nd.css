@@ -1,0 +1,74 @@
+body{
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+}
+
+.box{
+    height: 110px;
+    width: 110px;
+    background-color: rgb(136, 196, 32);
+    margin-bottom: 30px;
+}
+ol{
+    margin-left: 45%;
+    transition: transform 2s linear;
+}
+ol:hover{
+    transform: translate(-100px);
+}
+ 
+.p{
+    transition: width 2s linear;
+}
+.p:hover{
+    width: 300px;
+}
+
+.w{
+    transition: width 2s;
+}
+.w:hover{
+    width: 300px;
+}
+
+
+.q{
+    transition: width 2s, height 2s;
+}
+.q:hover{
+    width: 300px;
+    height: 300px;
+} 
+
+.r{
+   transition: width 2s ease;
+}
+.r:hover{
+    width: 300px;
+}
+
+.s{
+    transition: width 2s ease-in;
+}
+.s:hover{
+    width: 300px;
+}
+
+.t{
+    transition: width 2s ease-out;
+ }
+ .t:hover{
+     width: 300px;
+ }
+
+ .u{
+    transition: width 2s ease-in-out;
+ }
+ .u:hover{
+     width: 300px;
+ }
+ 
+ 
